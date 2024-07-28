@@ -14,7 +14,9 @@ function dark(){
     document.querySelector(".education").style.boxShadow="0px 0px 8px white"
     document.querySelector(".intro-proj").style.boxShadow="0px 0px 8px white"
     document.querySelector(".blur-div").style.boxShadow="0px 0px 20px white"
+    document.querySelector(".blur-div").style.backgroundColor="#11001f"
     document.querySelector(".boxer").style.backgroundColor="white"
+    document.querySelector(".logo").style.color="white"
 
 
 }
@@ -28,12 +30,14 @@ function light(){
     document.querySelector(".bi-moon-fill").style.display="block"
     document.querySelector(".blur-div").style.boxShadow="0px 0px 10px black"
     document.querySelector(".circle").style.boxShadow="0px 0px 15px black"
+    document.querySelector(".blur-div").style.backgroundColor="white"
+    document.querySelector(".logo").style.color="black"
 
 }
 
 function hamburger(){
     document.querySelector(".boxer").style.display="block"
-    document.querySelector(".boxer").style.width="40%"
+    document.querySelector(".boxer").style.width="50%"
     document.querySelector(".boxer").style.position="absolute"
     document.querySelector(".boxer").style.top="90px"
     document.querySelector(".boxer").style.right="10px"
