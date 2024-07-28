@@ -24,7 +24,8 @@
    display: flex;
    width: 100%;
    justify-content: space-evenly;
-    background-image: url(./media/navbar-blur.png);
+    /* background-image: url(./media/navbar-blur.png); */
+    background-color: white;
     align-items: center;
    position: fixed;
    z-index: 99;
@@ -393,7 +394,7 @@ background: linear-gradient(270deg, rgba(201,50,208,1) 19%, rgba(130,79,203,1) 5
 }
 .contact{
     width: 60%;
-    margin:200px auto;
+    margin:200px auto 50px;
     height: 700px;
     /* border: 2px solid red; */
     padding-top: 120px;
@@ -504,6 +505,9 @@ background: linear-gradient(270deg, rgba(201,50,208,1) 19%, rgba(130,79,203,1) 5
     .two-btns{
         width: auto;
         margin-top: -30px;
+    }
+    .contact-me{
+        font-size: 14px;
     }
     .myresume-btn{
         width: auto;
