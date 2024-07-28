@@ -596,7 +596,10 @@ background: linear-gradient(270deg, rgba(201,50,208,1) 19%, rgba(130,79,203,1) 5
         left: 50px;
         top: 0px;
         margin-left: 85px;
-        
+
+    }
+    .srv-p1{
+        font-size: 14px ;
     }
     
 }
