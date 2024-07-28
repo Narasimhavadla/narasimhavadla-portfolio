@@ -64,7 +64,14 @@ text.innerHTML = text.textContent.split('').map(
     (char,i)=>
         `<span style="transform:rotate(${i * 8.3}deg)">${char}</span>`
 ).join('');
+const inputResponse = document.querySelector("input")
+function submitalert()
+{
+    if(inputResponse.value==null){
+        alert("submitted succesfully !")
+    }
+    else{
+        alert("please give your name and mail")
+    }
+    }
 
-function submitalert(){
-    alert("submitted succesfully !")
-}
