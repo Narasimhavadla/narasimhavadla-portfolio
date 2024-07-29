@@ -412,7 +412,7 @@ background: linear-gradient(270deg, rgba(201,50,208,1) 19%, rgba(130,79,203,1) 5
 }
 .input-sep>input{
     width: 350px;
-    padding: 20px 30px;
+    padding: 15px 30px;
     border-radius: 8px;
     outline: none;
     font-size: 16px;
@@ -420,9 +420,9 @@ background: linear-gradient(270deg, rgba(201,50,208,1) 19%, rgba(130,79,203,1) 5
 }
 .text-area{
     width: 90%;
-    height: 200px;
+    height: 180px;
     margin-left: 40px;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 10px 30px;
     opacity: 0.5;
     border-radius: 8px;
@@ -447,6 +447,7 @@ background: linear-gradient(270deg, rgba(201,50,208,1) 19%, rgba(130,79,203,1) 5
     animation-timeline: view();
     animation-range: entry 40% ;
 }
+
 @keyframes fade {
     from{
         opacity: 0;
@@ -596,7 +597,7 @@ background: linear-gradient(270deg, rgba(201,50,208,1) 19%, rgba(130,79,203,1) 5
         left: 50px;
         top: 0px;
         margin-left: 85px;
-
+        
     }
     .srv-p1{
         font-size: 12px ;
