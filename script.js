@@ -54,7 +54,6 @@ function hamburgerHide(){
     document.querySelector(".bi-list").style.fontSize="30px"
     document.querySelector(".boxer").style.display="none"
     hambBOX.setAttribute("class","boxer-style-remove")
-    // document.querySelector(".bi-moon-fill").style.margin="0px 50px"
 
 }
 
@@ -64,6 +63,8 @@ text.innerHTML = text.textContent.split('').map(
     (char,i)=>
         `<span style="transform:rotate(${i * 8.3}deg)">${char}</span>`
 ).join('');
+
+
 const inputResponse = document.querySelector("input")
 function submitalert()
 {
