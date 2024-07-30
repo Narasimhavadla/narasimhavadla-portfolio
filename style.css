@@ -231,7 +231,9 @@ background: linear-gradient(270deg, rgba(201,50,208,1) 19%, rgba(130,79,203,1) 5
     font-family: "Ovo", serif;
     font-size: 60px;
 }
-
+.circle{
+        background-color:whitesmoke;
+    }
 .intro-pic{
     width: 100%;
     height: 100%;
