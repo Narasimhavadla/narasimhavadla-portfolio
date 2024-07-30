@@ -52,9 +52,7 @@ function hamburgerHide(){
     document.querySelector(".bi-x-lg").style.display="none"
     document.querySelector(".bi-list").style.display="block"
     document.querySelector(".bi-list").style.fontSize="30px"
-    document.querySelector(".boxer").style.display="none"
-    hambBOX.setAttribute("class","boxer-style-remove")
-
+    document.querySelector(".boxer").style.display="none";
 }
 
 
